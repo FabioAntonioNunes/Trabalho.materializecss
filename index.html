@@ -1,47 +1,99 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Materialize CSS | Conheça</title>
-     <link rel="stylesheet" href="estilo.css"> 
-    </head>
-     <body>
-         <header class="header">
-             <nav class="navbar container">
-                 <a href="index.html" class="logo">Materialize<span>+</span></a> <ul class="nav-links">
-                     <li><a href="#sobre">Sobre</a></li> <li><a href="#historia">História</a></li>
-                      <li><a href="#recursos">Recursos</a></li>
-                       <li><a href="curso.html" class="btn btn-small">Comprar curso</a></li> 
-                    </ul> </nav> 
-            </header>
 
-            <main> <!-- HERO --> <section class="hero"> 
-                <div class="container hero-content"> 
-                    <div class="hero-text"> 
-                        <span class="tag">FRAMEWORK FRONT-END</span> 
-                        <h1> Desenvolva interfaces
-                             <strong>modernas e responsivas</strong> </h1> 
-                             <p> Conheça o Materialize CSS, um framework baseado no Material Design que facilita a criação de sites bonitos, responsivos e funcionais. </p> <div class="hero-buttons"> 
-                                <a href="#sobre" class="btn">Conhecer Materialize</a> 
-                                <a href="curso.html" class="btn btn-outline"> Quero aprender </a> </div> </div>
-                                <div class="hero-image">
-    <img src="img/log.png" alt="marerialize">
-  </div>
-  
-                
+    <title>Materialize CSS | Conheça</title>
+
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <link rel="stylesheet" href="estilo.css">
+</head>
+
+<body>
+
+    <header class="header">
+
+        <nav class="navbar container">
+            <a href="index.html" class="logo">
+                Materialize<span>+</span>
+            </a>
+            
+
+            <ul class="nav-links">
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#historia">História</a></li>
+                <li><a href="#recursos">Recursos</a></li>
+
+                <li>
+                    <a href="curso.html" class="btn btn-small waves-effect waves-light">
+                        Comprar curso
+                    </a>
+                </li>
+            </ul>
+        </nav>
+
+    </header>
+
+    <main>
+
+        <section class="hero">
+
+            <div class="container hero-content">
+
+                <div class="hero-text">
+
+                   
+
+                    <h1>
+                        Desenvolva interfaces
+                        <strong>modernas e responsivas</strong>
+                    </h1>
+
+                    <p>
+                        Conheça o Materialize CSS, um framework baseado no
+                        Material Design que facilita a criação de sites
+                        bonitos, responsivos e funcionais.
+                    </p>
+
+                    <div class="hero-buttons">
+
+                        <a href="#sobre"
+                            class="btn waves-effect waves-light">
+                            Conhecer Materialize
+                            <i class="material-icons right">arrow_downward</i>
+                        </a>
+
+                        <a href="curso.html"
+                            class="btn btn-outline waves-effect">
+                            Quero aprender
+                        </a>
+
                     </div>
+
+                </div>
+
+                <div class="hero-image">
+                    <img src="img/log.png" alt="Logo do Materialize CSS">
                 </div>
 
             </div>
+
         </section>
 
-        <!-- SOBRE -->
         <section id="sobre" class="section">
+
             <div class="container">
 
                 <div class="section-title">
+
                     <span class="tag">O QUE É?</span>
+
                     <h2>Conheça o Materialize CSS</h2>
 
                     <p>
@@ -49,50 +101,86 @@
                         componentes e estilos prontos para ajudar no
                         desenvolvimento de interfaces web.
                     </p>
+
                 </div>
 
                 <div class="cards">
 
-                    <article class="info-card">
-                        <div class="icon"></div>
+                    <article class="info-card card hoverable">
+
+                        <div class="icon">
+                            <i class="material-icons teal-text text-lighten-1">
+                                palette
+                            </i>
+                        </div>
+
                         <h3>Material Design</h3>
+
                         <p>
                             Baseado nos princípios de design desenvolvidos
                             pelo Google, com uma interface moderna e intuitiva.
                         </p>
+
                     </article>
 
-                    <article class="info-card">
-                        <div class="icon"></div>
+                    <article class="info-card card hoverable">
+
+                        <div class="icon">
+                            <i class="material-icons teal-text text-lighten-1">
+                                devices
+                            </i>
+                        </div>
+
                         <h3>Responsivo</h3>
+
                         <p>
                             Permite criar páginas que se adaptam a diferentes
                             tamanhos de tela.
                         </p>
+
                     </article>
 
-                    <article class="info-card">
-                        <div class="icon"></div>
+                    <article class="info-card card hoverable">
+
+                        <div class="icon">
+                            <i class="material-icons teal-text text-lighten-1">
+                                speed
+                            </i>
+                        </div>
+
                         <h3>Prático</h3>
+
                         <p>
                             Possui componentes prontos que aceleram o
                             desenvolvimento de aplicações web.
                         </p>
+
                     </article>
 
                 </div>
 
             </div>
+
         </section>
+
         <section id="historia" class="section section-dark">
+
             <div class="container history">
 
                 <div>
-                    <span class="tag tag-light">HISTÓRIA</span>
-                    <h2>Como surgiu o Materialize?</h2>
+
+                    <span class="tag tag-light">
+                        HISTÓRIA
+                    </span>
+
+                    <h2>
+                        Como surgiu o Materialize?
+                    </h2>
+
                 </div>
 
                 <div class="history-text">
+
                     <p>
                         O Materialize CSS surgiu como um projeto desenvolvido
                         por estudantes da Carnegie Mellon University.
@@ -110,72 +198,247 @@
                         permitem desenvolver interfaces seguindo uma
                         identidade visual consistente.
                     </p>
+
                 </div>
 
             </div>
+
         </section>
-         <section id="recursos" class="section">
+
+        <section class="section demo-section">
+
             <div class="container">
 
                 <div class="section-title">
-                    <span class="tag">RECURSOS</span>
-                    <h2>O que você encontra no Materialize?</h2>
+
+                    <span class="tag">
+                        NA PRÁTICA
+                    </span>
+
+                    <h2>
+                        Componentes do Materialize
+                    </h2>
+
+                    <p>
+                        O Materialize oferece diversos componentes
+                        prontos para facilitar o desenvolvimento.
+                    </p>
+
+                </div>
+
+                <div class="demo-buttons center">
+
+                    <a class="btn teal waves-effect waves-light">
+                        Botão Materialize
+                        <i class="material-icons right">
+                            send
+                        </i>
+                    </a>
+
+                    <a href="#sobre" class="btn teal lighten-2 waves-effect waves-light">
+    Conhecer
+    <i class="material-icons right">arrow_forward</i>
+</a>
+
+                </div>
+
+                <div class="demo-box">
+
+                    <h3>Chips</h3>
+
+                    <div class="chip">
+                        Material Design
+                    </div>
+
+                    <div class="chip">
+                        CSS
+                    </div>
+
+                    <div class="chip">
+                        Responsivo
+                    </div>
+
+                    <div class="chip">
+                        Front-end
+                    </div>
+
+                </div>
+
+                <div class="demo-box">
+
+                    <h3>Progress</h3>
+
+                    <div class="progress">
+                        <div class="determinate" style="width: 75%"></div>
+                    </div>
+
+                    <p class="grey-text">
+                        Exemplo de barra de progresso utilizando Materialize.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <section id="recursos" class="section">
+
+            <div class="container">
+
+                <div class="section-title">
+
+                    <span class="tag">
+                        RECURSOS
+                    </span>
+
+                    <h2>
+                        O que você encontra no Materialize?
+                    </h2>
+
                 </div>
 
                 <div class="features">
 
                     <div class="feature">
+
                         <span>01</span>
+
                         <div>
-                            <h3>Grid System</h3>
+
+                            <h3>
+                                <i class="material-icons tiny teal-text">
+                                    grid_view
+                                </i>
+                                Grid System
+                            </h3>
+
                             <p>
                                 Sistema de grid para organizar os elementos
                                 de uma página.
                             </p>
+
                         </div>
+
                     </div>
 
                     <div class="feature">
+
                         <span>02</span>
+
                         <div>
-                            <h3>Componentes</h3>
+
+                            <h3>
+                                <i class="material-icons tiny teal-text">
+                                    widgets
+                                </i>
+                                Componentes
+                            </h3>
+
                             <p>
                                 Botões, cards, menus, formulários, modais
                                 e diversos outros componentes.
                             </p>
+
                         </div>
+
                     </div>
 
                     <div class="feature">
+
                         <span>03</span>
+
                         <div>
-                            <h3>Responsividade</h3>
+
+                            <h3>
+                                <i class="material-icons tiny teal-text">
+                                    devices
+                                </i>
+                                Responsividade
+                            </h3>
+
                             <p>
                                 Ferramentas para criar layouts adaptáveis
                                 para computadores, tablets e celulares.
                             </p>
+
                         </div>
+
                     </div>
 
                     <div class="feature">
+
                         <span>04</span>
+
                         <div>
-                            <h3>Classes CSS</h3>
+
+                            <h3>
+                                <i class="material-icons tiny teal-text">
+                                    code
+                                </i>
+                                Classes CSS
+                            </h3>
+
                             <p>
                                 Classes prontas que facilitam a estilização
                                 dos elementos da interface.
                             </p>
+
                         </div>
+
                     </div>
 
                 </div>
 
             </div>
-        </section>
-        <footer class="footer">
-        <div class="container footer-content">
-            <p>© 2026 Materialize+ </p>
 
-            <a href="curso.html">Curso Materialize CSS</a>
+        </section>
+
+        <section class="cta">
+
+            <div class="container">
+
+                <h2>
+                    Quer aprender Materialize CSS?
+                </h2>
+
+                <p>
+                    Aprenda a utilizar componentes, grids e recursos
+                    para criar interfaces modernas e responsivas.
+                </p>
+
+                <a href="curso.html"
+                    class="btn btn-white waves-effect waves-light">
+                    Conhecer o curso
+                    <i class="material-icons right">school</i>
+                </a>
+
+            </div>
+
+        </section>
+
+    </main>
+
+    
+
+    <footer class="footer">
+
+        <div class="container footer-content">
+
+            <p>
+                © 2026 Materialize+
+            </p>
+
+            <a href="curso.html">
+                Curso Materialize CSS
+            </a>
+
         </div>
+
     </footer>
+
+   
+
+</body>
+
+</html>
